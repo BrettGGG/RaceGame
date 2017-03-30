@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/back"
+        android:alpha="0.5"
+        android:background="@color/black"
+        android:id="@+id/imgBack" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/table">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="No.1 :"
+                android:textSize="36sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvN1" />
+
+            <TextView
+                android:text="000"
+                android:textSize="36sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/tv1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="No.2 :"
+                android:textSize="36sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvN2" />
+
+            <TextView
+                android:text="000"
+                android:textSize="36sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/tv2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="No.3 :"
+                android:textSize="36sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvN3" />
+
+            <TextView
+                android:text="000"
+                android:textSize="36sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/tv3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="No.4 :"
+                android:textSize="36sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvN4" />
+
+            <TextView
+                android:text="000"
+                android:textSize="36sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/tv4" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="No.5 :"
+                android:textSize="36sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvN5" />
+
+            <TextView
+                android:text="000"
+                android:textSize="36sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/tv5" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:text="  Back  "
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:shadowColor="@color/black"
+        android:background="@drawable/round_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBack"
+        android:layout_alignBottom="@+id/table"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp"/>
+</RelativeLayout>

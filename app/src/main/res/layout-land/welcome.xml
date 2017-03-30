@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/back"
+        android:background="@color/black"
+        android:id="@+id/imgBack" />
+
+    <TextView
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:rotation="8"
+        android:id="@+id/tvWlc" />
+
+    <Button
+        android:text="Start Game"
+        android:background="@drawable/round_btn"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWlc"
+        android:layout_toRightOf="@+id/tvWlc"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnStart" />
+
+    <Button
+        android:text="High Score"
+        android:background="@drawable/round_btn"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStart"
+        android:layout_toRightOf="@+id/tvWlc"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnScore" />
+
+    <Button
+        android:text="How to play"
+        android:background="@drawable/round_btn"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnScore"
+        android:layout_toRightOf="@+id/tvWlc"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnHow" />
+
+    <Button
+        android:text="Exit"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:shadowColor="@color/black"
+        android:background="@drawable/round_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btnHow"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:id="@+id/btnExit" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnStart"
+        android:layout_alignRight="@+id/btnExit"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/sound"
+        android:background="@color/black"
+        android:id="@+id/imgBtn" />
+
+
+</RelativeLayout>
